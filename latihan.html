@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- panggilan external styling9 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    /* Internal styling
+    style yang masih ada di dalam 1 doc tapi di luar tag html
+    */
+
+    /* selector
+    1. tag selector
+    2. class selector
+    3. id selector */
+
+    /* id selector -> # */
+    #sect-1 {
+        color: red;
+    }
+
+    /* tag selector */
+    h1{
+        font-size: 50px;
+        color: brown;
+    }
+
+    h1.sect-2{
+        font-size: 25px;
+    }
+
+    /* class selector -> . */
+    .paragraph{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .color-coral{
+        color: coral;
+    }
+
+    /* selector spesicifity */
+    /* bobot selector */
+    /* tag -> 0,0,1 */
+    /* class -> 0,1,0 */
+    /* id -> 1,0,0 */
+</style>
+
+<!-- External styling
+    diluar doc, berdiri sebagai doc sendiri dan perlu dipanggil ke docs html
+-->
+
+<body>
+    <div id="sect-1" style="color: blue;">section pertama</div>
+    <h1>Hello World</h1>
+    <div id="sect-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut doloribus voluptas labore ipsum obcaecati earum id quasi neque, corrupti iure explicabo, mollitia numquam amet dolorum magnam placeat tempore unde.</p>
+    </div>
+    
+    <div id="sect-3" class="paragraph color-coral">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laboriosam quasi officia optio. Illo deserunt sed mollitia velit error, nisi repellendus voluptatem distinctio alias aspernatur architecto, in qui explicabo adipisci.</p>
+    </div>
+
+    <a href="#sect-1">Pindah section pertama</a> <br>
+    <a href="./pages/latihan-form.html">Pindah ke halaman latihan form</a>
+</body>
+</html>

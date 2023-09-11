@@ -1,0 +1,72 @@
+input {
+    background-color: grey;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.box-form{
+    border: 2px solid #866e6e;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: solid black;
+}
+
+.satu {
+    background-color: lightblue;
+    position: static;
+    /* tidak bisa digeser pakai top left botto right */
+    
+}
+
+.dua {
+    background-color: lightcoral;
+    position: relative;
+    top: 0;
+}
+
+.tiga {
+    background-color: lightcyan;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.empat {
+    background-color: lightgoldenrodyellow;
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+}
+
+.lima {
+    background-color: lightgray;
+    /* position: sticky; */
+}
+
+.enam {
+    background-color: lightgreen;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-2 {
+    display: flex;
+    /* row default */
+    justify-content: space-between;
+    align-items: center;
+}
