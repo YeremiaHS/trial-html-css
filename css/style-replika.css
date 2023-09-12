@@ -21,6 +21,7 @@
 .container .right {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,15 +29,15 @@
 .left .title {
     font-size: 40px;
     font-family: Poppins;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 30px;
 }
 
 .form-container {
     /* border: 1px solid lightcoral; */
     padding: 10px;
-    border-radius: 8px;
-    width: 400px;
+    border-radius: 8px 8px 0px 0px;
+    width: 75%;
 }
 
 .form-container h2 {
@@ -68,6 +69,18 @@
     border-radius: 4px;
 }
 
+.input-group .username {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.input-group .fullname {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
 .input-group label {
     font-family: Poppins;
     font-size: 10px;
@@ -75,7 +88,7 @@
 
 .input-group-2 {
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
     justify-content: space-between;
 }
@@ -83,6 +96,13 @@
 .input-group-2 label {
     font-family: Poppins;
     font-size: 13px;
+}
+
+.input-group-2 a {
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 12px;
 }
 
 input[type=text], input[type=password], input[type=email] {
@@ -98,6 +118,7 @@ input[type=text], input[type=password], input[type=email] {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 4px;
+    margin-top: 40px;
 }
 
 .registerbtn {
@@ -119,4 +140,25 @@ input[type=text], input[type=password], input[type=email] {
     background-color: #D0CCCC;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+}
+
+.terms {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 75%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.terms h6 {
+    font-family: Poppins;
+    color: #D0CCCC;
+}
+
+.terms a {
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 11px;
 }
