@@ -84,6 +84,13 @@
 .input-group label {
     font-family: Poppins;
     font-size: 10px;
+    color: #D0CCCC;
+    margin-left: 6px;
+}
+
+.input-group .input-credentials {
+    border: none;
+    font-size: 17px;
 }
 
 .input-group-2 {
