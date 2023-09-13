@@ -1,0 +1,14 @@
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 561px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar-menu .sidebar-item {font-size: 16px;}
+    .sidebar-menu .addBtn {font-size: 16px;}
+    .title {display: none;}
+    .cards {display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+    .card {width: 80%;}
+    .container {padding: 2px 2px;}
+  } 
+
+  @media screen and (max-width: 768px) {
+    .title{display: none;}
+  }

@@ -1,4 +1,4 @@
-ul {
+.navbar-library{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,23 +7,8 @@ ul {
     box-shadow: 0px 0px 10px 0px #d3d3d3d4;
 }
 
-li {
+.navbar-library .navbar-library-item {
     float: left;
-}
-
-li a {
-    margin-top: 7px;
-    display: block;
-    font-family: Poppins;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-  color: #818181;
-  text-decoration: none;
 }
 
 input[type=text] {
@@ -90,10 +75,32 @@ input[type=text] {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  /* The sidebar links */
-  .sidebar a {
+
+  .sidebar .profile-picture {
+    margin-top: 7px;
+    display: block;
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .sidebar .closebtn {
+    color: black;
+    text-decoration: none;
+  }
+
+  .sidebar .closebtn:hover {
+    color: #818181;
+    text-decoration: none;
+  }
+
+  .sidebar .sidebar-username {
     padding: 10px 8px 4px 32px;
     text-decoration: none;
     font-size: 18px;
@@ -103,9 +110,14 @@ input[type=text] {
     font-family: Poppins;
   }
 
+  .sidebar .sidebar-username:hover {
+    color: #818181;
+    text-decoration: none;
+  }
+
   /* sidebar button */
   .sidebar .logoutBtn {
-    margin: 0px 8px 8px 114px;
+    /* margin: 0px 8px 8px 114px; */
     border: 1px sold #818181;
     border-radius: 6px;
     box-shadow: none;
@@ -115,23 +127,29 @@ input[type=text] {
     display: block;
     transition: 0.3s;
   }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidebar a:hover {
-    color: #818181;
-    text-decoration: none;
-  }
 
   /* sidebar submenu */
   .sidebar-menu {
-    padding-left: 32px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
   }
 
   /* sidebar submenu item */
-  .sidebar-menu a {
+  .sidebar-menu .sidebar-item {
+    padding: 10px 8px 4px 32px;
+    text-decoration: none;
+    color: black;
     float: left;
     font: Poppins;
     font-size: 20px;
+  }
+
+  /* sidebar submenu item */
+  .sidebar .sidebar-item:hover {
+    color: #818181;
+    text-decoration: none;
   }
 
   .sidebar-menu .addBtn {
@@ -175,12 +193,6 @@ input[type=text] {
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  } 
 
   /* modal */
   .modal {
@@ -227,12 +239,27 @@ input[type=text] {
     font-weight: 800;
 }
 
+.title .title-icon {
+  margin-top: 7px;
+  display: block;
+  font-family: Poppins;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title .title-icon:hover {
+color: #818181;
+text-decoration: none;
+}
+
 .text1 {
-  margin-top: 35px;
+  margin-top: 45px;
   margin-left: 35px;
 }
 
-.text1 p {
+.text1 .text-list {
   font-family: Poppins;
   font-size: 26px;
   font-weight: 600;
@@ -282,13 +309,13 @@ input[type=text] {
   object-position: center 10%;
 }
 
-.card p {
+.card .book-title {
   font-family: Poppins;
   font-weight: 700;
   font-size: 20px;
 }
 
-.book-desc p {
+.book-desc-container .book-desc {
   font-family: Poppins;
   font-weight: 400;
 }
