@@ -62,7 +62,7 @@ input[type=text] {
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -273,13 +273,13 @@ input[type=text] {
   width: 50%;
   height: 290px;
   margin-right: 10px;
-  /* background-color: #8c8; */
+  background-color: #8c8;
   border-radius: 5px;
 }
 
 .cover-book {
   object-fit: cover;
-  object-position: center;
+  object-position: center 10%;
 }
 
 .card p {
