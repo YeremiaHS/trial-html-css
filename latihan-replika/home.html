@@ -44,16 +44,6 @@
           <!-- button modal -->
           <button id="addBtn" class="addBtn">Add books</button>
 
-          <!-- modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>Some text in the Modal..</p>
-            </div>
-
-          </div>
         </div>
       </div>
 
@@ -97,9 +87,36 @@
       <a href="" class="title-icon"><i class="fa-solid fa-book"></i>Library</a>
     </li>
 
-    <input type="text" placeholder="Search Books">
+    <input type="text" placeholder="Search Books" class="search-book">
 
   </ul>
+
+  <!-- modal -->
+  <div id="myModal" class="modal-library">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p class="text-modal-1">Add Data</p>
+      <form action="" class="form-modal">
+        <div class="container-url">
+          <label for="url-image" class="label-modal-url">Url Image </label>
+          <input type="url" class="input-url">
+        </div>
+        <br>
+        <div class="container-title">
+          <label for="book-title" class="label-modal-title">Title </label>
+          <input type="text" class="input-title">
+        </div>
+        <br>
+        <div class="container-description">
+          <label for="book-description" class="label-modal-description">Description </label>
+          <textarea name="book-description-area" id="" cols="40" rows="4" class="input-description"></textarea>
+        </div>
+      </form>
+    </div>
+
+  </div>
 
   <div class="my-3" data-flickity='{"wrapAround":true}'>
     <img src="./img/1984-cover.png" alt="book1" class="cover-book carousel-cell">
