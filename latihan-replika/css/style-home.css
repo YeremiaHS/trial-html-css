@@ -282,6 +282,7 @@
 .modal-content .container-description {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 18px;
 }
 
 .container-description .input-description {
@@ -293,6 +294,28 @@
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 408px;
+  width: 18%;
+}
+
+.container-button .button-submit {
+  background-color: #FBCC38;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.container-button .button-submit:hover {
+  opacity: 0.8;
 }
 
 .title {

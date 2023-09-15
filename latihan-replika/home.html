@@ -101,17 +101,20 @@
       <form action="" class="form-modal">
         <div class="container-url">
           <label for="url-image" class="label-modal-url">Url Image </label>
-          <input type="url" class="input-url">
+          <input type="url" class="input-url" id="input-image">
         </div>
         <br>
         <div class="container-title">
           <label for="book-title" class="label-modal-title">Title </label>
-          <input type="text" class="input-title">
+          <input type="text" class="input-title" id="input-title">
         </div>
         <br>
         <div class="container-description">
           <label for="book-description" class="label-modal-description">Description </label>
-          <textarea name="book-description-area" id="" cols="40" rows="4" class="input-description"></textarea>
+          <textarea name="book-description-area" id="description" cols="40" rows="4" class="input-description"></textarea>
+        </div>
+        <div class="container-button">
+          <button class="button-submit" id="button-submit">Submit</button>
         </div>
       </form>
     </div>
@@ -189,6 +192,7 @@
   <script src="./scripts/sidebar.js"></script>
   <script src="./scripts/modal.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./scripts/home.js"></script>
 
   <!-- icon cdn -->
   <script src="https://kit.fontawesome.com/e10ad54163.js" crossorigin="anonymous"></script>
