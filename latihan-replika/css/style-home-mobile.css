@@ -1,12 +1,79 @@
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 561px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar-menu .sidebar-item {font-size: 16px;}
-    .sidebar-menu .addBtn {font-size: 16px;}
-    .title {display: none;}
-    .cards {display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
-    .card {width: 80%;}
-    .container {padding: 2px 2px;}
+  @media screen and (max-width: 425px) {
+    .sidebar {
+      padding-top: 15px;
+    }
+
+    .sidebar-menu .sidebar-item {
+      font-size: 16px;
+    }
+
+    .sidebar-menu .addBtn {
+      font-size: 16px;
+    }
+
+    .profile-image {
+      margin-top: 42px;
+    }
+
+    .title {
+      display: none;
+    }
+
+    .cards {
+      display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+    }
+
+    .card {
+      width: 80%;
+    }
+
+    .container {
+      padding: 2px 2px;
+    }
+
+    .modal-library .modal-content {
+      margin: auto;
+      width: 85%;
+    }
+
+    .modal-library .text-modal-1 {
+      font-size: 20px;
+    }
+
+    .container-url .input-url {
+      width: 220px;
+      height: 24px;
+    }
+
+    .container-url .label-modal-url {
+      font-size: 14px;
+    }
+
+    .container-title .input-title {
+      width: 220px;
+      height: 24px;
+    }
+
+    .container-title .label-modal-title {
+      font-size: 14px;
+    }
+
+    .container-description .input-description {
+      width: 220px;
+    }
+
+    .container-description .label-modal-description {
+      font-size: 14px;
+    }
+
+    .container-button {
+        margin-left: 0;
+    }
+
+    .container-button .button-submit {
+        font-size: 12px;
+    }
   } 
 
   @media screen and (max-width: 768px) {
