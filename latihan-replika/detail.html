@@ -25,7 +25,7 @@
     <div class="edit-delete-container">
         <!-- edit button -->
         <div>
-            <button id="editBtn" class="edit-button">Edit</button>
+            <button id="addBtn" class="edit-button">Edit</button>
         </div>
         <!-- edit button -->
         <!-- separator -->
@@ -42,11 +42,31 @@
     <!-- edit & delete section -->
 
     <!-- modal section -->
-    <div id="editModal" class="modal-edit">
+    <div id="myModal" class="modal-edit">
 
         <!-- modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
+            <p class="text-modal-1">Edit Data</p>
+            <form action="" class="form-modal">
+                <div class="container-url">
+                    <label for="url-image" class="label-modal-url">Url Image </label>
+                    <input type="url" class="input-url" id="input-image">
+                </div>
+                <br>
+                <div class="container-title">
+                    <label for="book-title" class="label-modal-title">Title </label>
+                    <input type="text" class="input-title" id="input-title">
+                </div>
+                <br>
+                <div class="container-description">
+                    <label for="book-description" class="label-modal-description">Description </label>
+                    <textarea name="book-description-area" id="description" cols="52" rows="4" class="input-description"></textarea>
+                </div>
+                <div class="container-button">
+                    <button class="button-submit" id="button-submit">Submit</button>
+                </div>
+            </form>
         </div>
         <!-- modal content -->
 
@@ -102,6 +122,9 @@
         <p class="footer-content">End of Library</p>
     </div>
     <!-- footer -->
+
+    <!-- js -->
+    <script src="./scripts/modal.js"></script>
 
     <!-- icon cdn -->
   <script src="https://kit.fontawesome.com/e10ad54163.js" crossorigin="anonymous"></script>
