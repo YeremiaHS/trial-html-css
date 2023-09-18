@@ -3,6 +3,149 @@
         display: none;
     }
 
+    .back-arrow {
+        color: black;
+    }
 
+    .edit-delete-container {
+        width: 100%;
+        justify-content: flex-end;
+        display: flex;
+        padding-right: 26px;
+        top: 16px;
+        left: 0;
+    }
+
+    .edit-delete-container .separator {
+        color: black;
+    }
+
+    .edit-delete-container .delete-button {
+        color: black;
+    }
     
+    .edit-delete-container .edit-button {
+        color: black;
+    }
+
+    .book-cover-container {
+        padding-top: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .borrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        width: 100%;
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+
+    .borrow-button {
+        width: 110px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .borrow-button:hover {
+        background-color: #fbcd38b7;
+    }
+
+    .book-cover {
+        position: static;
+    }
+
+    .category-container {
+        position: static;
+        margin-top: 34px;
+        margin-left: 26px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category-container .category {
+        width: 76px;
+        border-radius: 16px;
+        font-size: 14px;
+    }
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: static;
+        margin-top: 6px;
+        margin-left: 26px;
+        margin-right: 26px;
+        margin-bottom: 4px;
+    }
+
+    .title-container .title {
+        font-size: 30px;
+    }
+
+    .title-container .status {
+        font-size: 24px;
+    }
+
+    .date-container {
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    .date-container .date {
+        font-size: 14px;
+    }
+
+    .content-container {
+        margin-right: 26px;
+        margin-left: 26px;
+    }
+
+    .modal-edit .modal-content {
+        margin: auto;
+        width: 85%;
+    }
+
+    .modal-edit .text-modal-1 {
+        font-size: 20px;
+    }
+
+    .container-url .input-url {
+        width: 220px;
+        height: 24px;
+    }
+
+    .container-url .label-modal-url {
+        font-size: 14px;
+    }
+
+    .container-title .input-title {
+        width: 220px;
+        height: 24px;
+    }
+
+    .container-title .label-modal-title {
+        font-size: 14px;
+    }
+
+    .container-description .input-description {
+        width: 220px;
+    }
+
+    .container-description .label-modal-description {
+        font-size: 14px;
+    }
+
+    .container-button {
+        margin-left: 0;
+    }
+
+    .container-button .button-submit {
+        font-size: 12px;
+    }
 }

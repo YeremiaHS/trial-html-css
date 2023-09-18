@@ -7,7 +7,7 @@
 .back-arrow {
     margin-top: 26px;
     margin-left: 24px;
-    background-color: white;
+    color: white;
     border-radius: 10px;
     display: flex;
     position: fixed;
@@ -162,7 +162,6 @@
 
 .footer {
     width: 100%;
-    /* position: static; */
     height: auto;
     background-color: #070617;
     padding-left: 45px;
@@ -194,6 +193,7 @@
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
+    border-radius: 8px;
     width: 40%;
 }
 
