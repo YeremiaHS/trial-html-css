@@ -21,3 +21,17 @@ btnSubmit.addEventListener("click", (e)=> {
   }
 
 });
+
+const Fullname = sessionStorage.getItem('Fullname');
+const username = document.getElementById("username");
+username.innerHTML = Fullname
+
+const btnLogout = document.getElementById("button-logout")
+
+btnLogout.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  sessionStorage.clear();
+  alert("You will be logged out")
+  window.location.href = "./login.html";
+})
