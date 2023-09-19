@@ -26,30 +26,23 @@
                 <div class="input-group">
                     <div class="username">
                         <label for="username" style="color: #D0CCCC; margin-left: 6px;">Username: </label> <br>
-                        <input type="text" style="border: none;">
+                        <input type="text" class="input-credentials" id="input-username">
                     </div>
                     <div class="fullname">
                         <label for="fullname" style="color: #D0CCCC; margin-left: 6px;">Full name: </label> <br>
-                        <input type="text" style="border: none;">
+                        <input type="text" class="input-credentials" id="input-fullname">
                     </div>
                     <div class="email">
                         <label for="email" style="color: #D0CCCC; margin-left: 6px;">Email Address: </label> <br>
-                        <input type="email" style="border: none;">
+                        <input type="email" class="input-credentials" id="input-email">
                     </div>
                     <div class="password">
                         <label for="password" style="color: #D0CCCC; margin-left: 6px;">Password: </label> <br>
-                        <input type="password" style="border: none;">
+                        <input type="password" class="input-credentials" id="input-password">
                     </div>
                 </div>
-                <!-- <div class="input-group-2">
-                    <div>
-                        <input type="checkbox" name="rememberme" id="rememberme">
-                        <label for="rememberme" style="color: #D0CCCC;">Remeber Me</label>
-                    </div>
-                    <a href="">Forgot Password?</a>
-                </div> -->
                 <div class="submit-button">
-                    <button class="submitbtn">Sign up</button>
+                    <button class="submitbtn" id="btn-register">Sign up</button>
                     <a href="./login.html">
                         <button class="registerbtn">Login</button>
                     </a>
@@ -61,5 +54,8 @@
             </div>
         </section>
     </main>
+
+    <!-- js -->
+    <script src="./scripts/register.js"></script>
 </body>
 </html>

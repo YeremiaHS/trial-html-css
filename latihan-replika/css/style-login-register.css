@@ -91,6 +91,7 @@
 .input-group .input-credentials {
     border: none;
     font-size: 17px;
+    padding-left: 6px;
 }
 
 .input-group-2 {
