@@ -24,7 +24,7 @@ btnLogin.addEventListener("click", (e)=> {
                 let after_data = JSON.parse(localStorage.getItem(email.value));
                 after_data.Log = "Logged In";
 
-                sessionStorage.setItem('Fullname',User_data.Fullname)
+                sessionStorage.setItem('Fullname', User_data.Fullname)
 
                 localStorage.setItem(email.value, JSON.stringify(after_data));
                 alert("Login success!")
